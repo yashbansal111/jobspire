@@ -1,0 +1,9 @@
+#using python
+
+#importing random function library
+from random import randrange, uniform
+
+#method for generating random number
+def numberGenerator(name){
+  print(name + randrange(6,16))
+}
